@@ -7,4 +7,4 @@ SELECT
   SUM(qty) as total_quantity
 FROM `data-analytics-469406.course14.gwz_sales`
 GROUP BY date_date
-ORDER BY date_date DESC;
+ORDER BY date_date ASC;  -- DESC yerine ASC yap!
